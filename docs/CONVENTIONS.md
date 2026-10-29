@@ -81,7 +81,12 @@ Use the following template:
 ### EXP-NNN: Question or Experiment Name
 
 **Milestone:** MXX
-**Status:** PENDING | PASS | FAIL | BLOCKED | INCONCLUSIVE
+**Status:** PENDING | PASS | FAIL | BLOCKED | INCONCLUSIVE (see definitions in §6)
+
+Experiment status records whether its predefined acceptance criteria were met,
+not whether the hypothesis was supported. A `PASS` may mean the experiment
+disproved the hypothesis. Record the hypothesis outcome separately under
+Interpretation.
 
 #### Question
 
@@ -172,11 +177,11 @@ Validation outcomes:
 
 | Status | Meaning |
 |---|---|
-| `PASS` | Defined acceptance criteria were satisfied with evidence. |
-| `FAIL` | One or more required criteria were not satisfied. |
-| `BLOCKED` | Required execution or evidence is unavailable. |
+| `PASS` | Predefined acceptance criteria were met with sufficient evidence. |
+| `FAIL` | Acceptance criteria were not met, including because of procedural or execution failures. |
+| `BLOCKED` | A required dependency prevents execution. |
 | `INCONCLUSIVE` | Execution occurred, but evidence cannot establish a conclusion. |
-| `PENDING` | Validation has not been performed. |
+| `PENDING` | The experiment or validation has not been executed. |
 
 ### Rules
 

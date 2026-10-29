@@ -74,20 +74,9 @@ Each milestone contains:
 
 ## Evidence
 
-Trace uses six evidence classifications:
-
-| Tag | Type |
-|---|---|
-| `[D]` | Documentation |
-| `[S]` | Source observation |
-| `[R]` | Reverse engineering |
-| `[M]` | Measurement |
-| `[H]` | Hypothesis |
-| `[U]` | Unknown |
-
-These tags describe evidence provenance, not a universal ranking of reliability.
-
-See [Research Conventions](docs/CONVENTIONS.md) for reporting and validation requirements.
+Evidence tags distinguish provenance, not a universal ranking of reliability.
+See [Research Conventions](docs/CONVENTIONS.md#2-evidence-classification) for
+the authoritative classifications and usage rules.
 
 ## Using Trace
 

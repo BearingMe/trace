@@ -50,8 +50,6 @@ that behavior and the findings satisfy the acceptance criteria.
 
 ## M01 — Project Initialization
 
-**Status:** NOT STARTED
-
 ### Objective
 
 Establish the project's scope, constraints, and reproducible
@@ -78,8 +76,6 @@ working environment.
 ---
 
 ## M02 — Reference Collection
-
-**Status:** NOT STARTED
 
 ### Objective
 
@@ -108,8 +104,6 @@ Acquire and organize authoritative reference material.
 
 ## M03 — Reconnaissance
 
-**Status:** NOT STARTED
-
 ### Objective
 
 Understand the target system sufficiently to identify its
@@ -136,8 +130,6 @@ components, behavior, dependencies, and unknowns.
 ---
 
 ## M04 — Experimental Probing
-
-**Status:** NOT STARTED
 
 ### Objective
 
@@ -168,8 +160,6 @@ Resolve important unknowns through reproducible experiments.
 ---
 
 ## M05 — Reconstruction
-
-**Status:** NOT STARTED
 
 ### Objective
 
@@ -202,8 +192,6 @@ target behavior.
 
 ## M06 — Differential Validation
 
-**Status:** NOT STARTED
-
 ### Objective
 
 Compare the reconstruction against an independent oracle
@@ -234,8 +222,6 @@ or authoritative behavioral evidence.
 
 ## M07 — Integration
 
-**Status:** NOT STARTED
-
 ### Objective
 
 Demonstrate the reconstructed behavior in its intended
@@ -264,8 +250,6 @@ execution environment.
 ---
 
 ## M08 — Final Quality Gate
-
-**Status:** NOT STARTED
 
 ### Objective
 
